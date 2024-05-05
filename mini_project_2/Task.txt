@@ -1,24 +1,42 @@
-Задание
+Task
 
-    Загрузите данные, проверьте число наблюдений и столбцов, типы данных, наличие пропущенных значений, какие уникальные значения встречаются.
-    Постройте график распределения числа показов (Impressions) для каждой рекламы, прологарифмировав значения
-    Создайте новую колонку c CTR. Посмотрите на описательные статистики и распределение.
-    Проанализируйте CTR с разбивкой по рекламной кампании.
-    Посчитайте стоимость за клик пользователя по объявлению (CPC). Изучите полученные значения, используя меры центральной тенденции и меры изменчивости. 
-    Визуализируйте CPC с разбивкой по полу пользователей, которым были показаны объявления. 
-    Посчитайте конверсию из клика в покупку.
+1. Data Loading and Initial Analysis:
+   - Load the data and perform initial analysis:
+     - Check the number of observations and columns.
+     - Check the data types of each column.
+     - Check for missing values.
+     - Explore unique values in each column.
 
-Описание данных
+2. Distribution Plot of Impressions:
+   - Plot the distribution of the number of impressions for each ad, after logarithmically transforming the values.
 
-    ad_id – идентификатор объявления (рекламы)
-    xyz_campaign_id – идентификатор рекламной кампании в базе компании X
-    fb_campaign_id – идентификатор кампании в Facebook
-    age – возрастная группа, которой показывалась реклама
-    gender – пол тех, кому показывалась реклама
-    interest –код, указывающий категорию, к которой относится интерес пользователя (соответствие число – интерес)
-    impressions – число показов
-    clicks – число кликов
-    spent – сумма, которую компания потратила на показ объявления 
-    total_conversion – количество людей, которые заинтересовались продуктом после просмотра рекламы
-    approved_conversion – количество людей, которые купили продукт после просмотра рекламы
+3. Creation of a New Column for CTR:
+   - Create a new column for Click-Through Rate (CTR).
+   - Examine descriptive statistics and the distribution of CTR.
+
+4. Analysis of CTR by Advertising Campaign:
+   - Analyze CTR broken down by advertising campaign, especially for campaign number '916'.
+
+5. Calculation of Cost Per Click (CPC):
+   - Calculate the cost per click (CPC) for the ad.
+   - Examine the obtained values using measures of central tendency and variability.
+
+6. Visualization of CPC by User Gender:
+   - Visualize CPC broken down by the gender of users who were shown the ads.
+
+7. Conversion Rate from Click to Purchase:
+   - Calculate the conversion rate from click to purchase.
+
+Data Description:
+- `ad_id`: Identifier of the advertisement
+- `xyz_campaign_id`: Identifier of the advertising campaign in the X company's database
+- `fb_campaign_id`: Identifier of the campaign on Facebook
+- `age`: Age group to which the ad was shown
+- `gender`: Gender of those to whom the ad was shown
+- `interest`: Code indicating the category to which the user's interest belongs
+- `impressions`: Number of impressions
+- `clicks`: Number of clicks
+- `spent`: Amount the company spent on ad impressions
+- `total_conversion`: Number of people who showed interest in the product after viewing the ad
+- `approved_conversion`: Number of people who purchased the product after viewing the ad
 
