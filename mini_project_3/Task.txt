@@ -1,0 +1,32 @@
+Tasks
+
+1. Load the data, check the number of observations and columns, and look for missing values. Make sure the data types have been read correctly. If necessary, convert variables to the appropriate types.
+2. Plot the number of trips by date and time.
+3. Transform the data and calculate the number of trips per day. Visualize the result.
+4. Use aggregated data by day and calculate the moving average with a window of 3. Provide the number of rentals for 2015-07-09, rounding the value to the nearest integer.
+5. Calculate the difference between the observed values and the values calculated using the moving average. Then, find the standard deviation.
+6. Determine the 99% confidence interval boundaries and add this information to the dataframe.
+7. Investigate anomalously high values and specify the day with the highest number of rentals. Find the reason for this anomaly.
+8. Investigate anomalously low values, find the day with the lowest number of rentals. Find the reason for this anomaly.
+
+Data Description
+
+- timestamp – date and time (hour precision)
+- cnt – number of bike rentals for that hour
+- t1 – temperature, in Celsius
+- t2 – "feels like" temperature, in Celsius
+- hum – humidity (%)
+- wind_speed – wind speed, km/h
+- weather_code – weather conditions
+  1 – clear (SKC)
+  2 – mostly clear / partly cloudy (SCT)
+  3 – cloudy / significant clouds (BKN)
+  4 – overcast (OVC)
+  7 – light rain / light rain shower / light rain
+  10 – rain with thunderstorm
+  26 – snowfall
+  94 – freezing fog (yes, it happens!)
+- isholiday – whether the day is a holiday (1 – holiday, 0 – not holiday)
+- isweekend – whether the day is a weekend (1 – weekend, 0 – not weekend)
+- season – meteorological season (0 – spring, 1 – summer, 2 – autumn, 3 – winter)
+
