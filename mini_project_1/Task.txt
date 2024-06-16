@@ -1,0 +1,33 @@
+Tasks
+
+Data Loading and Verification:
+
+First step is to load the data and ensure it has been read correctly: examine columns, size, check for missing values (if any, remove them). Also, study the variable types.
+Plot the Distribution of Games Released by Year and Display Descriptive Statistics of the Year Variable.
+
+Which Platforms Have Released the Most Games?
+
+Which Publishers' Games Are Most Commonly Found in the Dataset?
+
+In Which Region is the Median Sales Volume of Nintendo Games the Highest? (Regions: NA, EU, JP, Other)
+
+Examine Sales Volumes of Nintendo Games in Japan by Genre. Look at Median, Mean, and Interquartile Range.
+
+Visualize the Dynamics of Global Sales Volume (Global_Sales) Over the Years for Nintendo Games of the Following Genres: Fighting, Simulation, Platform, Racing, Sports. At What Points in Time Were Sports Genre Games Sold the Most?
+
+Data Description
+
+The dataset includes the following fields:
+
+Rank: Sales rank
+Name: Game title
+Platform: Platform on which the game was released
+Year: Release year
+Genre: Game genre
+Publisher: Publisher
+NA_Sales: Sales in North America, in million units
+EU_Sales: Sales in Europe, in million units
+JP_Sales: Sales in Japan, in million units
+Other_Sales: Sales in other parts of the world, in million units
+Global_Sales: Total worldwide sales, in million units.
+
