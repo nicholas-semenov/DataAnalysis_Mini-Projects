@@ -1,0 +1,16 @@
+Imagine you are working as an analyst in a major pizza delivery company on a courier app project (yes, such companies typically have separate apps for couriers and consumers).
+
+You manage several restaurants across different parts of the city and a team of couriers. However, there's a problem: by evening, delivery speeds drop because couriers head home after their shifts, while the number of orders keeps increasing. This results in a significant efficiency drop during shift changes.
+
+Our data scientists have devised a new algorithm allowing couriers to plan their last orders of the day so that their delivery routes align with their way home. In other words, couriers would deliver their last orders of the day "en route" to their homes.
+
+You and your team have decided to roll out an A/B test on two equally sized groups of couriers. Some couriers will use the old algorithm without the "en route" option, while others will see and can choose this option in their app. Your task is to analyze the experiment data and help the business decide whether to roll out the new feature to all couriers.
+
+Data Description
+- `order_id` - order ID
+- `delivery_time` - delivery time in minutes
+- `district` - delivery district
+- `experiment_group` - experimental group
+
+
+
