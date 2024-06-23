@@ -1,0 +1,42 @@
+First Test: Image Resolution of Dishes
+Objective: Determine which image resolution (rectangular or square) leads to more orders.
+
+Data:
+- id: Customer ID in the experiment
+- group: Image resolution shown
+    A – Rectangular 16:9
+    B – Square
+    C – Rectangular 12:4
+-events: Total number of dishes ordered during the period
+
+Tasks:
+1) Select the analysis method.
+2) Check the homogeneity of variances within groups.
+3) Perform a normality test.
+4) Compare means between the groups.
+5) Use the Tukey's test to identify statistically significant differences between groups.
+6) Decide which images to use based on the results.
+
+
+----------------------------------------------------------------
+
+
+Second Test: Order Button Update
+Objective: Determine if the new order button affects the number of orders.
+
+Data:
+- id: Customer ID in the experiment
+- segment: Segment (high/low)
+- group: Type of button
+    control – old version
+    test – new version
+- events: Total number of dishes ordered during the period
+
+Tasks:
+1) Select the analysis method.
+2) Visualize the distribution of events for control and test groups.
+3) Examine descriptive statistics of events by group and user segment.
+4) Select a model formula and conduct the test.
+
+
+
