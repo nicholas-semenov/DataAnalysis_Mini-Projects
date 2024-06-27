@@ -1,0 +1,30 @@
+Task:
+
+1. Load the Data:
+    - Load the data from `cars.csv`.
+    - Check the correctness of the loaded data.
+    - Check for missing values.
+    - Check data types.
+
+2. Create a New Feature:
+    - Create a new feature for the car brand (company).
+    - Identify which car manufacturers are present in the dataset.
+    - Correct the manufacturer names if necessary and verify the changes.
+
+3. Feature Selection and Correlation Analysis:
+    - Retain only a subset of predictors.
+    - Calculate the correlation between `price` and other variables.
+
+4. Convert Categorical Variables:
+    - Convert categorical variables to numerical ones using `pd.get_dummies()`.
+
+5. Build a Model with a Single Predictor:
+    - Build a linear regression model using `horsepower` as the sole predictor for price.
+    - Determine the percentage of variability explained by this model (R²).
+
+6. Build and Compare Two Models:
+    - Build two linear regression models:
+        - A model with all predictors.
+        - A model with all predictors except for the car brands.
+    - Compare the R² values, coefficients, and their significance for both models.
+
